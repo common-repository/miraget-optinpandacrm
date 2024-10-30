@@ -1,0 +1,249 @@
+#wpbody00{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 15px;
+}
+/*************css add by ssk new222************/
+#dashboard_quick_press{
+    width:400px;
+    margin-right: 15px;
+}
+/*************end css ssk***************/
+.miraget-info label{
+    background: #f1f1f1;
+    cursor: pointer !important;
+    height: 14px;
+    top: 2px;
+    left: 2px;
+    line-height: 13px;
+    color: #4b4b4b !important ;
+}
+.miraget-info input{
+     padding-left: 116px !important;
+    font-size: 1em !important;
+}
+.miraget-submit{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.inside,.textarea-wrap{
+    position: relative;
+}
+.wpbody-content{
+    position: relative;
+}
+.miragetApiCalls{
+    position: absolute;
+    right: 22px;
+    top: 24px;
+}
+.miraget-apiStatus.sec {
+    border-top: 2px solid #46b450;
+    color: #00880c;
+}
+.miraget-apiStatus.err {
+    border-top: 2px solid #e90a0a;
+    color: #ffffff;
+    background: #ff3535 ;
+    -webkit-animation-name: animation;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    animation-name: animation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    background-color: #f00;
+}
+@-webkit-keyframes animation {
+    0%     {background-color:red;}
+    50.0%  {background-color:#ff6666;}
+    100.0%  {background-color:red;}
+}
+
+@keyframes animation {
+    0%     {background-color:red;}
+    50.0%  {background-color:#ff6666;}
+    100.0%  {background-color:red;}
+}
+.miraget-apiStatus {
+    background: #ffffff;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    float: right;
+    padding: 4px 15px;
+    display: block;
+    font-weight: bold;
+}
+.miragerErrorPost{
+    background: antiquewhite;
+    width: 80%;
+    margin: 15px auto;
+    line-height: 26px;
+    padding: 0px 14px;
+    border-radius: 3px;
+    color: #c01212;
+    font-size: 16px;
+    border: 1px solid #c01212;
+}
+
+
+.no-e-s{
+    padding: 11px 14px;
+    line-height: 9px;
+    margin: 0;
+    background: #f6fcf0;
+    display: block !important;
+    border: 1px solid #d7ffb9;
+}
+.listOptions{
+    padding: 8px 1px;
+    text-align: center;
+}
+.m-sisforce div label{
+    width: 92px;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.crmBox , .selectOPtionBox {
+    border: 1px solid #f1f1f1;
+    overflow: hidden;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    background-color: #fff;
+    color: #32373c;
+    outline: 0;
+    transition: 50ms border-color ease-in-out;
+}
+.crmBox .mcrmtitle , .selectOPtionBox .mcrmtitle{
+    background: #f1f1f1;
+    padding: 4px 12px;
+    width: 84px;
+    display: block;
+    float: left;
+    text-align: right;
+}
+.mcrmtitle2{
+    line-height: 26px;
+    font-size: .9rem;
+    margin-left: 9px;
+}
+.selectOPtionBox{
+    margin-top: 10px;
+    border: 0;
+    box-shadow: unset;
+}
+.selectOPtionBox .chck{
+    padding: 9px;
+    line-height: 22px;
+}
+.selectOPtionBox .chck input{
+    margin-right: 5px !important;
+}
+.selectOPtionBox .mcrmtitle{
+    border: 1px solid #e8e8e8;
+    text-align: center;
+}
+.prompt {
+    display: inline-block ;
+    text-align: center !important;
+}
+.zohoLink{
+    position: relative;
+}
+.zohoLink a {
+    position: absolute;
+    top: -26px;
+    right: 0;
+}
+.nothing{
+    padding: 14px ;
+}
+
+.noInfotarget{
+
+    color: #ffffff;
+    background: #ff3535 ;
+    -webkit-animation-name: animation;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    animation-name: animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    background-color: #f00;
+    padding: 5px ;
+}
+
+.apiV2Inputs label{ width: 93px; }
+.apiV1Inputs label{ width: 93px; }
+/*styling zoho api v2 input
+*/
+.zoho-apiv2{
+    width:96px;
+}
+/*add styling for emailing option*/
+.email-container input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.email-container label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.email-container input[type=submit] {
+    background-color: #0073aa;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+.email-container input[type=submit]:hover {
+    background-color: #0073aa;
+}
+
+.email-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, .email-container input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
